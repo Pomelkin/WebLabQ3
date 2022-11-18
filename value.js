@@ -1,21 +1,10 @@
-let value = +prompt("Введите число");
-
-
-let arr = [];
-let sum = 0;
-for (let i = 1; i < value; i++) {
-    if (value % i === 0)
-        arr.push(i);
-}
-
-for (let i = 0; i < arr.length; i++) {
-    sum+= arr[i];
-}
-
-if (sum == value) {
-    alert("Совершенное число")
-} else {
-    alert("Число несовершенное")
-}
-
-
+var a = prompt("vvedite chislo");
+var sc=['6','28','496','8128','33550336','8589869056','137438691328','2305843008139952128','2658455991569831744654692615953842176','191561942608236107294793378084303638130997321548169216'];
+if (sc.includes(a))
+  {
+    alert("chislo sovershenno");
+  }
+else
+  {
+    alert("chislo ne sovershenno");
+  }
